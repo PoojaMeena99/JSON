@@ -1,0 +1,20 @@
+import json
+
+d ={"emp1": {"name": "Lisa", "designation": "programmer","age": "34","salary": "54000"},"emp2": {"name": "Elis","designation": "Trainee","age": "24","salary": "40000"}}
+# print(type(d))
+file = open("myfile.json", "r")
+json.dump1(d, file,indent=4)
+file.close()
+
+# mport json
+
+# a={"name": 3,"cl":5}
+# print(type(a))
+# b= json.dumps(a)
+# c=json.loads(b)
+
+# print(type(c))
+
+# b= json.dumps(a)
+# d=json.load(b)
+# print(d) 
