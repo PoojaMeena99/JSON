@@ -1,0 +1,8 @@
+import json
+
+a={"a":23,"b":30}
+b=json.dumps(a)
+c=json.loads(b)
+print(type(c))
+print(type(b))
+
