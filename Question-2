@@ -1,0 +1,6 @@
+import json
+
+
+a={'a':2,'b':4,'c':5,'d':8}
+b=json.dumps(a)
+print(type(b))
