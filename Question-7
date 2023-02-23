@@ -1,0 +1,22 @@
+# Text.txt:-  
+#  Name Abhishek
+#  Designation CEO of navgurukul
+#  Gender male
+#  Age 29
+
+# import json
+# a={"Name": "Abhishek","Designation": "CEO of navgurukul”","Gender":"male","Age": "29"}
+# with open("file.json","w") as k:
+#     json.dump(a,k,indent=12)
+
+
+
+# Json_file.json:-
+
+
+# {
+#     “Name”: “Abhishek”,
+#     “Designation”: “CEO of      navgurukul”,
+#     “Gender”:”male”,
+#     “Age”: “29”
+#     }
