@@ -1,0 +1,7 @@
+# Q5.Json string ko check karo ki bo complex object contain karti hai ya nahi?
+import json
+a="5+4j"
+b=json.load(a)
+print(type(a))
+print(type(b))
+print(b)
